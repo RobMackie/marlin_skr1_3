@@ -134,7 +134,7 @@
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "GP3D SKR1.3 - Rob  Mackie."
+#define CUSTOM_MACHINE_NAME "GP3D SKR1.3 - Rob Mackie 1.2"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
@@ -717,7 +717,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 72.00, 72.00, 72.00, 72 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 72.00, 72.00, 72.00, 112.15 }
 
 /**
  * Default Max Feed Rate (mm/s)
